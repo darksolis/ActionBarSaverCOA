@@ -1,4 +1,5 @@
-local ABS = select(2, ...)
+ActionBarSaver = ActionBarSaver or select(2, ...) or {}
+local ABS = ActionBarSaver
 local L = {}
 L["/abs count - Toggles checking if you have the item in your inventory before restoring it, use if you have disconnect issues when restoring."] = "/abs count - Toggles checking if you have the item in your inventory before restoring it, use if you have disconnect issues when restoring."
 L["/abs delete <profile> - Deletes the saved profile."] = "/abs delete <profile> - Deletes the saved profile."

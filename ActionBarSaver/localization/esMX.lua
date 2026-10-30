@@ -64,5 +64,6 @@ L["WARRIOR"] = "Guerrero"
 L["You cannot rename \"%s\" to \"%s\" they are the same profile names."] = "No puede cambiar el nombre de \"%s\" a \"%s\" porque ambos nombres son idénticos."
 L["Your DB has been upgraded to the new storage format."] = "la configuración guardada se ha actualizado al nuevo formato de almacenamiento."
 
-local ABS = select(2, ...)
+ActionBarSaver = ActionBarSaver or select(2, ...) or {}
+local ABS = ActionBarSaver
 ABS.L = setmetatable(L, {__index = ABS.L})

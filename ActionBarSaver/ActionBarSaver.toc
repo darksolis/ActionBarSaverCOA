@@ -1,10 +1,9 @@
 ## Interface: 30300
-## Title: Action Bar Saver
+## Title: ActionBarSaver |cffC9A45CDarkveil Edition|r
 ## Notes: Saves and restores your action bars.
 ## Author: Shadowed
 ## SavedVariables: ActionBarSaverDB
-## LoadManagers: AddonLoader
-## X-LoadOn-Slash: /actionbarsaver, /abs
+## Version: v18-darkveil
 ## X-Curse-Packaged-Version: v2.3.3
 ## X-Curse-Project-Name: Action Bar Saver
 ## X-Curse-Project-ID: action-bar-saver

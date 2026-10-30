@@ -1,0 +1,1 @@
+v16: Fix minimap circular atlas artifact. Add /abs map <profile> <slot> <exact learned spell name or real spell ID> to repair unresolved CoA spells without guessing or overwriting other saved slots. Map stores original entry in slotMapHistory. Four companion/pet slots remain intentionally unsupported. Keep your existing SavedVariables and back them up before installation.

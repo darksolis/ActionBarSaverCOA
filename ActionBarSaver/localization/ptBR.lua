@@ -1,5 +1,6 @@
 if( GetLocale() ~= "ptBR" ) then return end
 local L = {}
 
-local ABS = select(2, ...)
+ActionBarSaver = ActionBarSaver or select(2, ...) or {}
+local ABS = ActionBarSaver
 ABS.L = setmetatable(L, {__index = ABS.L})
