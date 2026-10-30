@@ -1,8 +1,0 @@
-Action Bar Saver v2.3.3 - ArdenWoW 3.3.5 compatibility patch
-
-Fixes: nil macro limit startup crash, 3.3.5 spell-tab cache, missing spell rank, duplicate spellbook loops, flyout dispatch, missing macro handling, nil and typo guards, and TOC interface.
-
-Install: back up SavedVariables/ActionBarSaver.lua, remove the old Interface/AddOns/ActionBarSaver folder, unzip this package into Interface/AddOns.
-
-Test: /abs save test; /abs list; /abs restore test.
-Warning: restore clears existing bar slots first. Back up your UI and profile before restoring. This patch has NOT been runtime tested on ArdenWoW.
